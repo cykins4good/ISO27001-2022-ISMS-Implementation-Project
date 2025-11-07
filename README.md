@@ -1,10 +1,18 @@
 # ISO/IEC 27001:2022 Information Security Management System (ISMS) Implementation Project  
 
+### 🏢 Organization Overview  
+The simulated ISMS implementation is designed for **CyTech Secure Solutions Ltd.**,  
+a small-to-medium enterprise (SME) specializing in cybersecurity, IT infrastructure management, and data protection services.  
+The company handles sensitive client data, conducts vulnerability assessments, and manages endpoint and network security for several business clients across multiple sectors.  
+The purpose of this project is to strengthen **CyTech’s information security posture** and achieve compliance with **ISO/IEC 27001:2022** by establishing a robust, risk-based Information Security Management System (ISMS).  
+
+---
+
 ### 📘 Project Overview  
 This project represents a full-scale, simulated **implementation of ISO/IEC 27001:2022 Information Security Management System (ISMS)**.  
-It is led by **Cypriano Akinwunmi (GRC – Cybersecurity Risk & Compliance Professional)** using a **Kali Linux virtual environment** to demonstrate hands-on competence in documentation, configuration, control implementation, and continuous improvement — aligned with the clauses of ISO/IEC 27001:2022.  
+It is led by **Cypriano Akinwunmi (GRC – Cybersecurity Risk & Compliance Professional)** using a **Kali Linux virtual environment** to demonstrate professional competence in planning, implementing, operating, and evaluating ISMS processes according to the standard’s requirements.  
 
-All tasks in this project will be structured along the ISO 27001:2022 Clauses:  
+All activities in this project will be structured along the ISO 27001:2022 Clauses:  
 - Clause 4 – Context of the Organization  
 - Clause 5 – Leadership  
 - Clause 6 – Planning  
@@ -16,11 +24,12 @@ All tasks in this project will be structured along the ISO 27001:2022 Clauses:
 ---
 
 ## 🎯 Objective  
-To simulate and document the step-by-step implementation of an ISO/IEC 27001:2022–compliant Information Security Management System (ISMS) within an organizational environment, showcasing professional ability to:  
-- Interpret and apply each clause in practice.  
-- Identify and manage information security risks.  
-- Develop policies, procedures, and controls aligned with Annex A.  
-- Demonstrate continual improvement using audit findings and corrective actions.  
+To simulate and document the comprehensive implementation of an ISO/IEC 27001:2022–compliant Information Security Management System (ISMS) within **CyTech Secure Solutions Ltd.**, demonstrating the ability to:  
+- Translate ISO 27001 requirements into actionable processes.  
+- Identify and assess information security risks.  
+- Develop and implement appropriate controls based on Annex A.  
+- Establish continuous improvement mechanisms through audits and management reviews.  
+- Showcase documentation and compliance evidence professionally via Git and GitHub.
 
 ---
 
@@ -58,39 +67,42 @@ ISO27001-2022-ISMS-Implementation-Project/
 ## 🔍 Clause-by-Clause Implementation Plan  
 
 ### **Clause 4 – Context of the Organization**  
-I will define the internal and external context influencing information security objectives through SWOT and PESTLE analysis.  
-I will identify stakeholders, their needs, and expectations, and define the ISMS scope boundaries in a formal document:  
-`/01_Context/ISMS_Context_and_Scope_Statement.docx`.
+I will analyze CyTech’s internal and external context using **SWOT** and **PESTLE** frameworks to understand the factors influencing its ISMS objectives.  
+Stakeholders such as clients, regulators, employees, and service providers will be identified, along with their information security expectations.  
+The ISMS scope statement will define the systems, services, and departments covered under certification.  
+All context documentation will be maintained in `/01_Context/`.
 
 ### **Clause 5 – Leadership**  
-I will develop and publish the organization’s **Information Security Policy**, secure top management approval, and define clear roles and responsibilities through a **RACI matrix**.  
-Evidence of management endorsement will be stored in `/02_Leadership/`.
+I will develop and publish the organization’s **Information Security Policy**, secure top management approval, and define ISMS roles and responsibilities through a **RACI matrix**.  
+Simulated evidence of management commitment (such as digital approval and endorsement letters) will be stored in `/02_Leadership/`.
 
 ### **Clause 6 – Planning**  
-I will conduct an ISO 27005–aligned **risk assessment**, document identified threats and vulnerabilities, and formulate a **risk treatment plan** using Annex A controls.  
-All risk documents will be located in `/03_Planning/`.
+I will perform a detailed **risk assessment** following ISO 27005 methodology, identifying threats, vulnerabilities, and impacts to CyTech’s assets.  
+A **risk treatment plan** will be developed by mapping relevant **Annex A controls** to identified risks.  
+All risk analysis records and treatment actions will be located in `/03_Planning/`.
 
 ### **Clause 7 – Support**  
-I will establish ISMS resources, training plans, awareness campaigns, and secure documentation procedures.  
-Training and communication records will be managed in `/04_Support/`.
+I will ensure the provision of adequate resources, staff competence, and ISMS awareness programs.  
+A **Training and Awareness Plan** will outline periodic security awareness sessions, role-based training, and communication procedures.  
+All support documentation will reside in `/04_Support/`.
 
 ### **Clause 8 – Operation**  
-I will implement operational controls, simulate incidents, and manage them using an **Incident Response Plan**.  
-Operational records will reside in `/05_Operation/`.
+I will implement operational risk treatment actions, document standard operating procedures, and simulate incident response scenarios (e.g., unauthorized access, phishing attempt).  
+Incident handling logs and evidence of operational controls will be stored in `/05_Operation/`.
 
 ### **Clause 9 – Performance Evaluation**  
-I will create Key Performance Indicators (KPIs), conduct internal audits, and perform management reviews.  
-Performance evidence and audit records will be stored in `/06_Performance_Evaluation/`.
+I will monitor ISMS performance using defined **Key Performance Indicators (KPIs)**, conduct **internal ISMS audits**, and simulate **management review meetings** to evaluate effectiveness.  
+Evaluation records, audit reports, and review minutes will be maintained in `/06_Performance_Evaluation/`.
 
 ### **Clause 10 – Improvement**  
-I will identify nonconformities, analyze root causes, and implement corrective actions for continual improvement.  
-Improvement records will be kept in `/07_Improvement/`.
+I will record nonconformities identified during audits, perform root cause analysis using the **5 Whys** technique, and implement corrective actions.  
+All continual improvement records will be stored in `/07_Improvement/`.
 
 ---
 
 ## 🧾 Documentation and Evidence Collection  
-All compliance evidence — including screenshots from the Kali Linux VM, Git commit logs, policies, and audit documents — will be organized in the `Evidence/` and `Screenshots/` directories.  
-Version control will be maintained via GitHub commits to demonstrate traceability and accountability.
+All compliance evidence — including screenshots from the Kali Linux VM, Git commit logs, and supporting documents — will be organized within the `Evidence/` and `Screenshots/` directories.  
+This approach ensures verifiable traceability and accountability in line with ISO 27001 documentation requirements.  
 
 ---
 
@@ -98,15 +110,16 @@ Version control will be maintained via GitHub commits to demonstrate traceabilit
 - **Operating System:** Kali Linux VM  
 - **Version Control:** Git & GitHub  
 - **Documentation Tools:** LibreOffice, VS Code, and Markdown  
-- **Standards Framework:** ISO/IEC 27001:2022 & ISO/IEC 27005  
-- **Audit & Assessment:** Manual evaluation and simulated scenarios  
+- **Frameworks Referenced:** ISO/IEC 27001:2022, ISO/IEC 27005  
+- **Audit Simulation:** Manual internal audit and management review exercises  
 
 ---
 
 ## 🚀 Next Steps  
-1. Continue populating clause-based documentation folders with real policy, risk, and control examples.  
-2. Capture and upload screenshots of each completed activity.  
-3. Perform internal audit simulations and generate a final **ISMS Implementation Report** in PDF format.  
+1. Populate clause folders with live documentation, reports, and screenshots.  
+2. Upload the **ISMS Context and Scope Statement** and **Information Security Policy** as initial deliverables.  
+3. Simulate and document CyTech’s internal audit process for ISO 27001 compliance verification.  
+4. Produce a comprehensive final **ISMS Implementation Report (PDF)** for presentation.
 
 ---
 
