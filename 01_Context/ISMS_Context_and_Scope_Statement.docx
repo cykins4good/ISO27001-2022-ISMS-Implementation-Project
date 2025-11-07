@@ -1,16 +1,71 @@
 🧭 CLAUSE 4 – CONTEXT OF THE ORGANIZATION
 Organization: CyTech Secure Solutions Ltd.
 Lead Implementer: Cypriano Akinwunmi (GRC – Cybersecurity Risk & Compliance Professional)
-Project: ISO/IEC 27001:2022 ISMS Implementation Project
-
-4.1 Understanding the Organization and Its Context
+Project: ISO/IEC 27001:2022 ISMS Implementation Project                                                                                                                                       4.1 Understanding the Organization and Its Context
 
 CyTech Secure Solutions Ltd. is a small-to-medium enterprise (SME) providing cybersecurity, risk management, and IT infrastructure services to small businesses and public-sector organizations. The company operates in an increasingly complex regulatory and threat environment where confidentiality, integrity, and availability of information are critical to client trust and service continuity.
 
-To ensure a complete understanding of factors that influence the ISMS, I will conduct both SWOT and PESTLE analyses.                                                                                                                                                                         🔹 SWOT Analysis (Internal & External Context)                                                    | **Factor**        | **Description**                                                                                                                                                                                            |
+To ensure a complete understanding of factors that influence the ISMS, I will conduct both SWOT and PESTLE analyses.                                                                                                                                                                         🔹 SWOT Analysis (Internal & External Context)                                                                                                                                                | **Factor**        | **Description**                                                                                                                                                                                            |
 | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Strengths**     | - Skilled cybersecurity professionals with certifications (CISA, ISO 27001, GRC, etc.)<br>- Strong client trust built on technical excellence<br>- Defined internal processes for vulnerability management |
 | **Weaknesses**    | - Limited IT staff capacity for continuous monitoring<br>- Absence of centralized documentation controls<br>- Heavy dependency on external cloud service providers                                         |
 | **Opportunities** | - Growing SME demand for managed cybersecurity services<br>- Availability of government funding for SME digital resilience<br>- Ability to integrate AI-driven threat intelligence                         |
 | **Threats**       | - Increasing cyber threats (phishing, ransomware)<br>- Regulatory tightening (NDPR, GDPR, ISO 27001 compliance)<br>- Potential loss of reputation due to client data breach                                |
-               
+                                                                                               🔹 PESTLE Analysis (External Environmental Factors)                                                                                                                                           | **Category**      | **Description of Factors**                                                             | **Impact on ISMS**                                                |
+| ----------------- | -------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| **Political**     | National cybersecurity strategy mandates for SMEs; regional data localization policies | High – may require ISMS to align with government compliance needs |
+| **Economic**      | Fluctuations in IT budget; inflation affecting procurement of licensed software tools  | Medium – budgetary risk to implementing controls                  |
+| **Social**        | Increasing public concern about data privacy and identity protection                   | High – client trust depends on strong ISMS posture                |
+| **Technological** | Rapid emergence of AI-based attacks and new cloud technologies                         | High – continuous improvement and monitoring needed               |
+| **Legal**         | NDPR, GDPR, and ISO 27001 compliance obligations                                       | Critical – ISMS must embed legal requirements into controls       |
+| **Environmental** | Business continuity risks from power outages and climate impacts                       | Medium – BCMS integration necessary                               |
+                                                                                               4.2 Understanding the Needs and Expectations of Interested Parties                                                                                                                            | **Interested Party**                  | **Role / Interest**                                         | **Information Security Expectations**                                  |
+| ------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **Clients**                           | Depend on CyTech for secure management of systems and data  | Expect confidentiality, integrity, and timely availability of services |
+| **Employees**                         | Implementers and custodians of security policies            | Expect clear policies, training, and safe handling of information      |
+| **Management**                        | Decision-makers ensuring compliance and client satisfaction | Expect ISMS to reduce business risk and regulatory exposure            |
+| **Regulators (NDPC, NITDA)**          | Oversight bodies for data protection and compliance         | Expect adherence to NDPR and relevant ISO standards                    |
+| **Service Providers (Cloud Vendors)** | Support hosting, email, and backup services                 | Expect clarity on shared security responsibilities                     |
+| **Partners / Auditors**               | Provide third-party assurance and external audits           | Expect structured and transparent ISMS documentation                   |
+                                                                                               4.3 Determining the Scope of the ISMS
+
+The ISMS will cover all business activities and assets related to cybersecurity, risk management, and IT infrastructure operations within CyTech Secure Solutions Ltd.
+
+Scope Statement:
+
+“The ISMS applies to the management, processing, and protection of client data, internal IT systems, and supporting infrastructure of CyTech Secure Solutions Ltd., located in the primary office and associated virtual cloud environments. It encompasses people, processes, and technologies that handle or support the security of client-related information assets.”
+
+Exclusions (if any):
+
+Personal home networks of remote workers not directly controlled by the organization
+
+Non-business personal devices used outside the managed environment
+
+Scope Boundaries:
+
+Physical boundary: CyTech’s primary operations office and approved remote work setups
+
+Logical boundary: Corporate LAN, managed VPN, Git repositories, and associated cloud storage
+
+Organizational boundary: CyTech employees, contractors, and third-party service providers involved in ISMS processes                                                                                                                                                                         4.4 ISMS Documentation and Evidence
+
+I will create and upload the following files under /01_Context/ in my GitHub repository:                                                                                                      | **File Name**                              | **Purpose**                                                               |
+| ------------------------------------------ | ------------------------------------------------------------------------- |
+| `ISMS_Context_and_Scope_Statement.docx`    | Formal documentation of context, scope, and interested parties            |
+| `SWOT_Analysis.xlsx`                       | Record of internal/external strengths, weaknesses, opportunities, threats |
+| `PESTLE_Analysis.xlsx`                     | External environment analysis file                                        |
+| `Interested_Parties_and_Expectations.docx` | Record of stakeholder needs and expectations                              |
+| `ISMS_Boundary_Map.png`                    | Diagram or network boundary overview                                      |
+                                                                                               I will capture screenshots of:
+
+The folder structure in my local repository
+
+Git commits showing version control activity
+
+Document metadata (author, timestamps)
+
+These screenshots will serve as evidence of implementation and documentation discipline, aligned with ISO 27001:2022 Clause 4 requirements.                                                                                                                                                  Author & Ownership
+Prepared by:
+Cypriano Akinwunmi
+(GRC – Cybersecurity Risk & Compliance Professional)
+LinkedIn: https://www.linkedin.com/in/cypriano-akinwunmi-33383063/
